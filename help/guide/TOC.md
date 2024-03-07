@@ -1,11 +1,11 @@
 ---
 user-guide-title: Adobe内容供应链教程
-breadcrumb-title: 供应链Tutorials
-user-guide-description: 查看有关Adobe内容供应链的Experience League教程，它是一个端到端解决方案，可通过创新型人工智能和智能自动化加速和简化内容供应链。
-source-git-commit: 2ad7a5cfde323b7a6f726f98ec4c5eafd7cd4d86
+breadcrumb-title: 内容供应链教程
+user-guide-desription: View Experience League tutorials on Adobe Content supply chain, the simplified promise of Adobe’s solutions to help organizations accelerate and scale content creation, improve content engagement and ROI, and deliver the content that fuels digital engagements buyers prefer.
+source-git-commit: fb7ae72b84c093627e79ddd171f703619410b637
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 1%
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 1%
 
 + [[!DNL Content supply chain] 教程](overview.md)
 + [工作流和规划](workflow-and-planning.md)
-+ [创意生产力](creative-productivity.md)
-+ [使用AEM Assets提高创意工作效率](creative-productivity-aemassets.md)
-+ [营销敏捷度](marketing-agility.md)
++ [内容创建和生产](content-creation-and-production.md)
++ [资产管理](asset-management.md)
 + [交付和激活](delivery-and-activation.md)
++ [报告和见解](reporting-and-insights.md)
++ 隐藏 {#hidden}
+   + [创意生产力](creative-productivity.md)
+   + [使用AEM Assets提高创意工作效率](creative-productivity-aemassets.md)
+   + [营销敏捷度](marketing-agility.md)
