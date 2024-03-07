@@ -1,27 +1,27 @@
 ---
-title: 工作流程和规划 — 简化并加快工作
-description: 对于难以连接并跟踪其内容需求的公司，通过内容生产和完成的规划过程。 缺少有效的流程、规划、批准和跨项目的数据一致性，正在剥夺该公司内容供应链的生产力和效率。
-solution: Experience Cloud, Workfront, Creative Cloud, Experience Manager Assets
-feature-set: Experience Manager, Experience Manager Assets, Creative Cloud, Workfront
-feature: Workflow, Asset Management, Asset Processing, Collaboration, Share, People Teams and Groups, Work Management, Gen AI
-topic: Content Management, Collaboration
+title: 工作流和规划教程
+description: 在整个内容生命周期中构建简化且透明的工作流。  加快审查和批准流程。  自动化手动工作流。
+solution: Experience Cloud, Workfront, Creative Cloud
+feature-set: Creative Cloud, Workfront
+feature: Workflow, Collaboration, Share, People Teams and Groups, Work Management, Gen AI
+topic: Content Management, Collaboration, Artificial Intelligence
 role: Admin, User, Leader, Developer
 level: Beginner
-last-substantial-update: 2023-11-16T00:00:00Z
+last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-14154
-source-git-commit: 2ad7a5cfde323b7a6f726f98ec4c5eafd7cd4d86
+source-git-commit: ac328c68438276c1c7b0a6ea66ef9e86d73fed5f
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '446'
 ht-degree: 8%
 
 ---
 
 
-# 工作流程和规划：简化并加快工作
+# 工作流和规划教程
 
-此文档适用于从规划、生产到完成一直努力连接和跟踪其内容要求的公司。 缺少有效的流程、规划、批准和跨项目的数据一致性，正在剥夺该公司内容供应链的生产力和效率。
+在整个内容生命周期中构建简化且透明的工作流。  加快审查和批准流程。  自动化手动工作流。
 
-用于规划和工作流的Adobe解决方案：
+用于工作流和规划的Adobe解决方案：
 
 <table>
     <tr style="border: 0;">
@@ -33,19 +33,12 @@ ht-degree: 8%
         <p style="margin: 0"><img alt="Frame.io" src="/help/assets/frameio-logo.png" style="width: 42px;height:42px;"></p>
         <strong>Frame.io</strong>
       </td>
-      <td style="align: center">
-        <p style="margin: 0"><img alt="Frame.io" src="/help/assets/aem-logo.png" style="width: 42px;height:42px;"></p>
-        <strong>AEM Assets</strong>
-      </td>
     </tr>
 </table>
 
-## 主要业务用例
-
-* 简化工作流和批准
-* 优化支出和资源
-* 实现更大的容量、项目、风险和时间线可视性
-* 自动化下游流程，如元数据标记
+>[!TIP]
+>
+>我们的Adobe产品专家团队为关键内容供应链用例编写了一组集成教程。 如果您使用多个解决方案，请了解集成它们的最佳方法！  查看 [内容供应链集成教程](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## 推荐课程
 
