@@ -1,84 +1,30 @@
 ---
 title: Adobe内容供应链
 description: Adobe内容供应链是一个端到端解决方案，它通过创新型人工智能和智能自动化加速并简化您的内容供应链。
-source-git-commit: d5f4c8023e7d7964757ee71557766495d7aca64c
+source-git-commit: f979dd648619ea01e8bf6f0c4355cb3b707aa239
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
 
-# Adobe内容供应链Tutorials
+# Adobe内容供应链教程
 
->[!BEGINSHADEBOX]
-
-Adobe的内容供应链工具通过使您的团队能够使用Generative AI扩展内容创建、提高团队灵活性和上市速度并提高内容ROI和效率，帮助加快组织的执行能力。
-
->[!VIDEO](https://video.tv.adobe.com/v/3424114?quality=12&learn=on)
+Adobe的内容供应链工具通过使您的团队能够使用创作AI扩展内容创建、提高团队灵活性和上市速度并提高内容ROI和效率，帮助加快组织执行的能力。
 
 内容供应链将人员、工具和工作流整合在一起，以有效地规划、创建、生产、交付和衡量内容。 随着客户以越来越快的速度要求更高质量的体验，再加上多种渠道和格式的复杂性，品牌需要彻底改变其看待内容的方式。
 
->[!ENDSHADEBOX]
+通过这些教程，了解如何使用创作AI的强大功能强化您的端到端内容创建和交付过程。
 
-<table>
-    <tr style="border: 0;">
-      <td>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/workflow-and-planning.html">
-        <img alt="工作流和规划" src="./../assets/planning-workflow.webp">
-        </a>
-        <div>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/workflow-and-planning.html">
-        <strong>工作流和规划</strong>
-        </a>
-        </div>
-        <p>
-        <em>简化和编排工作</em>
-        <p>
-      </td>
-      <td>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/creative-productivity.html">
-        <img alt="创意生产力" src="./../assets/creative-productivity.png">
-        </a>
-        <div>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/creative-productivity.html">
-        <strong>创意生产力</strong>
-        </a>
-        </div>
-        <p>
-        <em>为创意团队提供动力</em>
-        <p>
-      </td>
-    </tr>
-    <tr style="border: 0;">
-      <td>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/marketing-agility.html">
-        <img alt="营销敏捷度" src="./../assets/marketing-agility.webp">
-        </a>
-        <div>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/marketing-agility.html">
-        <strong>营销敏捷度</strong>
-        </a>
-        </div>
-        <p>
-        <em>增强营销人员和其他团队的权能，使其能够快速将内容推向市场</em>
-        <p>
-      </td>
-      <td>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/delivery-and-activation.html">
-        <img alt="交付和激活" src="./../assets/content-activation-analytics.webp">
-        </a>
-        <div>
-        <a href="https://experienceleague.adobe.com/docs/content-supply-chain-learn/tutorials/delivery-and-activation.html">
-        <strong>交付和激活</strong>
-        </a>
-        </div>
-        <p>
-        <em>启用交付和性能</em>
-        <p>
-      </td>
-    </tr>
-</table>
+
+* [工作流和规划](workflow-and-planning.md)  — 构建透明、快速且高效的互联工作流。
+* [内容创建和生产](content-creation-and-production.md)  — 使用创作AI转换创意工作，大规模自动化内容变体，并使营销人员能够创建品牌内内容。
+* [资产管理](asset-management.md)  — 集中化、管理和治理整个组织中数以百万计的资产。
+* [交付和激活](delivery-and-activation.md)  — 在客户历程的每个步骤中无缝交付内容。
+* *报表和分析*  — 通过提高内容使用率和性能来提高内容ROI。
+
+<!-- * [Reporting and Insights](reporting-and-insights.md) - Enhance content ROI by improving content usage and performance. -->
 
 ## 其他资源
 
