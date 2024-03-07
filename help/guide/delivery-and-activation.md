@@ -1,48 +1,55 @@
 ---
-title: 交付和激活 — 高级体验和性能
-description: 适用于需要支持的公司，在正确的渠道中将正确的内容呈现给正确的个人。 内容供应链使这种连接比任何其他解决方案都要好，同时还提供了分析功能以确保总体内容性能。
-solution: Experience Cloud, Workfront, Creative Cloud, Experience Manager Assets
-feature-set: Experience Manager, Experience Manager Assets, Experience Manager Sites, Journey Optimizer, Creative Cloud
-feature: Asset Management, Asset Processing, Collaboration, Share, Performance Monitoring, Personalization, Channels Activity, Gen AI
-topic: Content Management, Collaboration, Personalization
+title: 交付和激活教程
+description: 为体验以及内容和营销活动的效果提供强大动力。  快速激活资产并提高内容性能
+solution: Experience Cloud, Experience Manager, Campaign, Journey Optimizer, Marketo, Target
+feature-set: Experience Cloud, Experience Manager, Campaign, Journey Optimizer, Marketo Engage, Target
+topic: Content Management, Collaboration, Personalization, Artificial Intelligence
 role: Admin, User, Leader, Data Architect, Data Engineer
 level: Beginner
-last-substantial-update: 2023-11-16T00:00:00Z
+last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-14157
-source-git-commit: 2ad7a5cfde323b7a6f726f98ec4c5eafd7cd4d86
+source-git-commit: fecc107042220664ce5b76584f834a025844ef4b
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 1%
+source-wordcount: '610'
+ht-degree: 2%
 
 ---
 
 
-# 交付和激活：高性能体验和性能
+# 交付和激活教程
 
-适用于需要支持的公司，在正确的渠道中将正确的内容呈现给正确的个人。 内容供应链使这种连接比任何其他解决方案都要好，同时还提供了分析功能以确保总体内容性能。
-
-## 主要业务用例
-
-* 轻松查找和重复使用资源
-* 快速创建和发布高影响力的体验
-* 即时生成和测试副本
-* 跨渠道部署相关的个性化体验
+为体验以及内容和营销活动的效果提供强大动力。  快速激活资产并提高内容性能
 
 用于内容激活和分析的Adobe解决方案：
-
 
 <table>
     <tr style="border: 0;">
       <td style="vertical-align: middle">
-        <p style="margin: 0"><img alt="Experience Manager Assets" src="/help/assets/aem-logo.png" style="verticle-align: middle;width: 42px;height:42px;"></p>
-        <strong>Experience Manager Assets</strong>
-      </td>
-      <td style="vertical-align: middle">
         <p style="margin: 0"><img alt="Experience Manager Sites" src="/help/assets/aem-logo.png" style="verticle-align: middle;width: 42px;height: 42px;"></p>
         <strong>Experience Manager Sites</strong>
       </td>
+      <td style="vertical-align: middle">
+        <p style="margin: 0"><img alt="Adobe Campaign" src="/help/assets/ac-logo.png" style="verticle-align: middle;width: 42px;height: 42px;"></p>
+        <strong>Adobe Campaign</strong>
+      </td>
+      <td style="vertical-align: middle">
+        <p style="margin: 0"><img alt="Journey Optimizer" src="/help/assets/ajo-logo.png" style="verticle-align: middle;width: 42px;height: 42px;"></p>
+        <strong>Journey Optimizer</strong>
+      </td>
+      <td style="vertical-align: middle">
+        <p style="margin: 0"><img alt="Marketo" src="/help/assets/marketo-logo.png" style="verticle-align: middle;width: 42px;height: 42px;"></p>
+        <strong>Marketo</strong>
+      </td>
+      <td style="vertical-align: middle">
+        <p style="margin: 0"><img alt="目标" src="/help/assets/target-logo.png" style="verticle-align: middle;width: 42px;height: 42px;"></p>
+        <strong>目标</strong>
+      </td>
     </tr>
 </table>
+
+>[!TIP]
+>
+>我们的Adobe产品专家团队为关键内容供应链用例编写了一组集成教程。 如果您使用多个解决方案，请了解集成它们的最佳方法！  查看 [内容供应链集成教程](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## 教程
 
