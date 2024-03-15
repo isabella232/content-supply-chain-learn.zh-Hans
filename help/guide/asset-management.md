@@ -9,244 +9,400 @@ role: Admin, User, Leader, Developer
 level: Beginner
 last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-15076
-source-git-commit: fecc107042220664ce5b76584f834a025844ef4b
+source-git-commit: f3082975a674a13152aa92c06302e67e9f4715b6
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 7%
+source-wordcount: '1075'
+ht-degree: 3%
 
 ---
 
 
 # 资产管理教程
 
-从单个基于云的解决方案轻松访问和重复使用数百万个资产，同时确保品牌一致性。
+从单个基于云的解决方案轻松访问和重复使用数百万个资产，同时确保品牌一致性。  这些教程重点介绍Adobe Experience Manager Assets的使用。
 
-用于资产管理的Adobe解决方案：
-
-<table>
-    <tr style="border: 0;">
-      <td style="align: center">
-        <p style="margin: 0"><img alt="Frame.io" src="/help/assets/aem-logo.png" style="width: 42px;height:42px;"></p>
-        <strong>AEM Assets</strong>
-      </td>
-    </tr>
-</table>
 
 >[!TIP]
 >
 >我们的Adobe产品专家团队为关键内容供应链用例编写了一组集成教程。 如果您使用多个解决方案，请了解集成它们的最佳方法！  查看 [内容供应链集成教程](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## 推荐课程
-
-<table style="margin-top:0 !important">
-    <tr>
-      <td style="width:33%">
-        <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" target="_blank">
-          <img alt="AEM Assets Essentials快速入门" src="https://cdn.experienceleague.adobe.com/thumb/getting-started-with-assets-essentials.png">
-        </a>
-        <div>
-          <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" target="_blank">
-        <strong>AEM Assets Essentials快速入门</strong></a>
-        <p class="is-size-7 recs-limit-description">了解AEM Assets Essentials如何简化组织的资源管理。</p>
-        <p><a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-u-1-2023-assets-essentials.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解详情</span></a></p>
+<div class="columns is-multiline">
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets - Assets View] Bulk Import - Feature Video" tabIndex="0">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html" title="[AEM Assets - Assets视图]批量导入 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3426857?format=jpeg" alt="[AEM Assets - Assets视图]批量导入 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html" title="[AEM Assets - Assets视图]批量导入 — 功能视频">[AEM Assets - Assets视图]批量导入 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解如何使用批量导入功能将大量文件导入AEM Assets，以Dropbox作为示例云存储提供商，实现清晰易用的集成过程。</p>
         </div>
-      </td>
-      <td style="width:33%">
-        <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" target="_blank">
-          <img alt="“为管理员配置AEM Assets”教程的缩略图图像" src="https://cdn.experienceleague.adobe.com/thumb/configuring-aem-assets-for-administrators.jpg">
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
         </a>
-        <div>
-          <a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" target="_blank">
-        <strong>为管理员配置AEM Assets</strong></a>
-        <p class="is-size-7 recs-limit-description">了解如何通过配置核心问题（从设置基线内容架构和分类到自定义元数据和资源处理），为您的AEM Assets实施奠定坚实的基础。</p>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Asset Essentials][Workfront] Assets Essentials and Workfront integration - Catalog" tabIndex="1">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="[Asset Essentials][Workfront]Assets Essentials与Workfront集成 — 目录" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3422184?format=jpeg" alt="[Asset Essentials][Workfront]Assets Essentials与Workfront集成 — 目录">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="[Asset Essentials][Workfront]Assets Essentials与Workfront集成 — 目录">[Asset Essentials][Workfront]Assets Essentials与Workfront集成 — 目录</a>
+          </p>
+          <p class="is-size-6">了解如何集成Workfront和Assets Essentials。</p>
         </div>
-        <p><a href="https://experienceleague.adobe.com/docs/courses/using/experiencemanager-a-1-2020-1-assets.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解详情</span></a></p>
-      </td>
-    </tr>
-</table>
-
-## 教程
-
-<div class="columns is-multiline"><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Integrate Adobe Workfront and AEM Assets Essentials" tabIndex="0">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="集成Adobe Workfront和AEM Assets Essentials" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://cdn.experienceleague.adobe.com/thumb/docs-workfront.png" alt="集成Adobe Workfront和AEM Assets Essentials">
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
         </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" title="集成Adobe Workfront和AEM Assets Essentials">集成Adobe Workfront和AEM Assets Essentials</a>
-          </p>
-          <p class="is-size-6"><em>了解如何集成Workfront和AEM Assets Essentials以简化创意工作流的管理。</em></p>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解详情</span>
-      </a>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Use Adobe Workfront plugins to integrate with Creative Cloud" tabIndex="1">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" title="使用 Adobe Workfront 插件与 Creative Cloud 集成" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3415452?format=jpeg" alt="使用 Adobe Workfront 插件与 Creative Cloud 集成">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" title="使用 Adobe Workfront 插件与 Creative Cloud 集成">使用Adobe Workfront插件与Creative Cloud集成</a>
-          </p>
-          <p class="is-size-6"><em>将Workfront与Creative Cloud集成，以查找并更新分配给您的工作，而无需离开Adobe Creative Cloud。</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Adobe Express integration - Feature Video" tabIndex="2">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" title="[AEM Assets]Adobe Express集成 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3425193?format=jpeg" alt="[AEM Assets]Adobe Express集成 — 功能视频">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/wf-adobe-cc.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看视频</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" title="[AEM Assets]Adobe Express集成 — 功能视频">[AEM Assets]Adobe Express集成 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解如何使用AEM Assets和Adobe Express优化内容供应链，提高所有团队成员的工作效率和访问能力。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-express-aem-assets-add-on.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Configure Adobe Workfront and AEM Assets Essentials" tabIndex="2">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html" title="配置Adobe Workfront和AEM Assets软件包" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/336254?format=jpeg" alt="配置Adobe Workfront和AEM Assets软件包">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html" title="配置Adobe Workfront和AEM Assets软件包">配置Adobe Workfront和AEM Assets软件包</a>
-          </p>
-          <p class="is-size-6"><em>了解如何配置Adobe Workfront和Assets Essentials集成</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Adobe Express] Empower marketing teams to create multi-channel content - Feature video" tabIndex="3">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" title="[Adobe Express]让营销团队能够创建多渠道内容 — 专题视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3424446?format=jpeg" alt="[Adobe Express]让营销团队能够创建多渠道内容 — 专题视频">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看视频</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" title="[Adobe Express]让营销团队能够创建多渠道内容 — 专题视频">[Adobe Express]让营销团队能够创建多渠道内容 — 专题视频</a>
+          </p>
+          <p class="is-size-6">了解事件营销团队如何创建独特内容来吸引在线事件的查看者。 在此工作流中，B2B营销人员在其Adobe Express包和库中使用模板启动新项目。 B2B营销人员为不同的社交和Web渠道创建变体，并在社交媒体和视频托管平台上共享内容。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/expressoverview/expressusecase/multi-channel-marketing-content.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Workfront enhanced connector basics" tabIndex="3">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" title="Workfront增强型连接器基础知识" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/337575?format=jpeg" alt="Workfront增强型连接器基础知识">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" title="Workfront增强型连接器基础知识">Workfront增强型连接器基础知识</a>
-          </p>
-          <p class="is-size-6"><em>了解Adobe Workfront和Experience Manager Assets增强型连接器的基础知识。</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Workfront Enhanced Integration Basics - Feature Video" tabIndex="4">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" title="[AEM Assets] Workfront增强集成基础知识 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/337575?format=jpeg" alt="[AEM Assets] Workfront增强集成基础知识 — 功能视频">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看视频</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" title="[AEM Assets] Workfront增强集成基础知识 — 功能视频">[AEM Assets] Workfront增强集成基础知识 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解Adobe Workfront与Experience Manager Assets增强集成的基础知识，包括如何链接资源和文件夹、定义元数据映射、将资源发送到AEM、对资源进行版本控制以及自动发布资源。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
   </div>
-</div><div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Integrate Workfront and AEM Assets with the enhanced connector" tabIndex="4">
-  <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-    <div class="card-image">
-      <figure class="image x-is-16by9">
-        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" title="将Workfront和AEM Assets与增强型连接器集成" tabindex="-1">
-          <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/340331?format=jpeg" alt="将Workfront和AEM Assets与增强型连接器集成">
-        </a>
-      </figure>
-    </div>
-    <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-      <div class="top-card-content">
-          <p class="headline is-size-6 has-text-weight-bold">
-              <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" title="将Workfront和AEM Assets与增强型连接器集成">将Workfront和AEM Assets与增强型连接器集成</a>
-          </p>
-          <p class="is-size-6"><em>有关使用增强型连接器集成Workfront和AEM Assets的四部分视频系列。</em></p>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] AEM and Adobe Asset Link Creative Workflow - Value Video" tabIndex="5">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" title="[AEM Assets] AEM和AdobeAsset Link创作工作流 — 价值视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/335927?format=jpeg" alt="[AEM Assets] AEM和AdobeAsset Link创作工作流 — 价值视频">
+          </a>
+        </figure>
       </div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-        <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看视频</span>
-      </a>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" title="[AEM Assets] AEM和AdobeAsset Link创作工作流 — 价值视频">[AEM Assets] AEM和AdobeAsset Link创作工作流 — 价值视频</a>
+          </p>
+          <p class="is-size-6">演示使用AAL和AAM的用户创意工作流的视频</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-asset-link.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
   </div>
-</div></div>
-
-<!--
-<table class="tablelayout-is-fixed">
-<tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html">
-      <img alt="Integrate Adobe Workfront and AEM Assets Essentials" src="https://cdn.experienceleague.adobe.com/thumb/docs-workfront.png">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/overview.html">
-    <strong>Integrate Adobe Workfront and AEM Assets Essentials</strong>
-    </a>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AJO] Create content with the Email Designer - Feature Video" tabIndex="6">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" title="[AJO]使用Email Designer创建内容 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/334150?format=jpeg" alt="[AJO]使用Email Designer创建内容 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" title="[AJO]使用Email Designer创建内容 — 功能视频">[AJO]使用Email Designer创建内容 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解如何从头开始创建电子邮件。了解如何使用 AEM Assets Essentials 库中的资产、编辑响应式电子邮件设计以及使用模板创建电子邮件。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/create-content-with-the-email-designer.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn how to integrate Workfront and AEM Assets Essentials to streamline the management of creative workflows.</em>
-    </p><p>
-  </p></td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html">
-      <img alt="Use Adobe Workfront plugins to integrate with Creative Cloud" src="https://video.tv.adobe.com/v/3415452?format=jpeg">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html">
-    <strong>Use Adobe Workfront plugins to integrate with Creative Cloud</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Asset Essentials] Getting started with Assets Essentials - Feature Video" tabIndex="7">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html" title="[Asset Essentials]Assets Essentials快速入门 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/336005?format=jpeg" alt="[Asset Essentials]Assets Essentials快速入门 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html" title="[Asset Essentials]Assets Essentials快速入门 — 功能视频">[Asset Essentials]Assets Essentials快速入门 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解Assets Essentials如何提供简单易用的直观用户界面，从而更容易查找和记住资源和相关信息。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Integrate Workfront with Creative Cloud to find and update the work assigned to you without leaving Adobe Creative Cloud.</em>
-    </p><p>
-  </p></td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html">
-    <img alt="Configure Adobe Workfront and AEM Assets Essentials" src="https://video.tv.adobe.com/v/336254?format=jpeg">
-    </a>
-    <div>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html">
-    <strong>Configure Adobe Workfront and AEM Assets Essentials</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets] Content Automation - Value video" tabIndex="8">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" title="[AEM Assets]内容自动化 — 超值视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/333197?format=jpeg" alt="[AEM Assets]内容自动化 — 超值视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" title="[AEM Assets]内容自动化 — 超值视频">[AEM Assets]内容自动化 — 超值视频</a>
+          </p>
+          <p class="is-size-6">此概述将Photoshop和Lightroom功能与Adobe Experience Manager Assets Content Automation结合使用。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/content-automation/overview.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn how to configure the Adobe Workfront and Assets Essentials integration</em>
-    </p>
-  </td>
-  </tr>
-  <tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html">
-      <img alt="Workfront enhanced connector basics" src="https://video.tv.adobe.com/v/337575?format=jpeg">
-    </a>
-     <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html">
-        <strong>Workfront enhanced connector basics</strong>
-      </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Metadata profiles - Feature Video" tabIndex="9">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" title="[Assets]元数据配置文件 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/33974?format=jpeg" alt="[Assets]元数据配置文件 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" title="[Assets]元数据配置文件 — 功能视频">[Assets]元数据配置文件 — 功能视频</a>
+          </p>
+          <p class="is-size-6">元数据配置文件允许将默认元数据自动应用于资源文件夹中的资源，有助于减轻AEM用户管理元数据的负担，并提高元数据一致性。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/configuring/metadata-profiles" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Learn about the basics of the Adobe Workfront and Experience Manager Assets enhanced connector.</em>
-    </p>
-  </td>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html">
-      <img alt="Integrate Workfront and AEM Assets with the enhanced connector" src="https://video.tv.adobe.com/v/340331?format=jpeg">
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html">
-    <strong>Integrate Workfront and AEM Assets with the enhanced connector</strong>
-    </a>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Navigation - Feature Video" tabIndex="10">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" title="[Assets]导航 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32046?format=jpeg" alt="[Assets]导航 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" title="[Assets]导航 — 功能视频">[Assets]导航 — 功能视频</a>
+          </p>
+          <p class="is-size-6">探索导航AEM Assets的基础知识。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/navigation.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
     </div>
-    <p>
-    <em>Four part videos series on integrating Workfront and AEM Assets using the enhanced connector.</em>
-    </p><p>
-  </p></td>  
-</tr>
-</table>
--->
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Comments and Annotations - Feature Video" tabIndex="11">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" title="[Assets]评论和批注 — 专题视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32049?format=jpeg" alt="[Assets]评论和批注 — 专题视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" title="[Assets]评论和批注 — 专题视频">[Assets]评论和批注 — 专题视频</a>
+          </p>
+          <p class="is-size-6">了解如何在AEM中使用注释和批注来就资源进行通信和协作。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/collaboration/comments-and-annotations.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Search - Feature Video" tabIndex="12">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" title="[Assets]搜索 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/32054?format=jpeg" alt="[Assets]搜索 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" title="[Assets]搜索 — 功能视频">[Assets]搜索 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解如何使用AEM Omnisearch快速发现资源。</p>
+        </div>
+        <a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/search-and-discovery/search.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Download - Feature Video" tabIndex="13">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" title="[Assets]下载 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/35090?format=jpeg" alt="[Assets]下载 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" title="[Assets]下载 — 功能视频">[Assets]下载 — 功能视频</a>
+          </p>
+          <p class="is-size-6">了解如何将资源及其演绎版下载到本地计算机以供使用和共享。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/download.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] AEM Desktop App 2.0 - Feature Video" tabIndex="14">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html" title="[Assets] AEM桌面应用程序2.0 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/28868?format=jpeg" alt="[Assets] AEM桌面应用程序2.0 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html" title="[Assets] AEM桌面应用程序2.0 — 功能视频">[Assets] AEM桌面应用程序2.0 — 功能视频</a>
+          </p>
+          <p class="is-size-6">使用AEM桌面应用程序可简化对桌面上AEM中管理的任何资产（任何应用程序和文件格式）的访问。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] DM Smart Image Crop - Feature Video " tabIndex="15">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html" title="[Assets] DM智能图像裁切 — 功能视频 " tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/21519?format=jpeg" alt="[Assets] DM智能图像裁切 — 功能视频 ">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html" title="[Assets] DM智能图像裁切 — 功能视频 ">[Assets] DM智能图像裁切 — 功能视频 </a>
+          </p>
+          <p class="is-size-6">智能裁切使用Adobe Sensei来消除为响应式设计裁切内容这一耗时且成本高昂的任务。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[Assets] Asset Source File Translation - Feature Video" tabIndex="16">
+    <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+      <div class="card-image">
+        <figure class="image x-is-16by9">
+          <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" title="[Assets]资产源文件翻译 — 功能视频" tabindex="-1">
+            <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/18331?format=jpeg" alt="[Assets]资产源文件翻译 — 功能视频">
+          </a>
+        </figure>
+      </div>
+      <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+        <div class="top-card-content">
+          <p class="headline is-size-6 has-text-weight-bold">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" title="[Assets]资产源文件翻译 — 功能视频">[Assets]资产源文件翻译 — 功能视频</a>
+          </p>
+          <p class="is-size-6">Adobe Experience Manager (AEM) Assets允许您识别共享通用属性的资源，并使用新的相关资源功能将它们标记为相关。</p>
+        </div>
+        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/translation/source-file-translation-feature-video-use" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+          <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">了解更多</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## 其他资源
 
