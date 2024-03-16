@@ -9,7 +9,7 @@ role: Admin, User, Leader, Developer
 level: Beginner
 last-substantial-update: 2024-03-06T00:00:00Z
 jira: KT-15076
-source-git-commit: f3082975a674a13152aa92c06302e67e9f4715b6
+source-git-commit: 588f3d016786a02658c3131945e5a23a47195130
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 3%
@@ -27,6 +27,7 @@ ht-degree: 3%
 >我们的Adobe产品专家团队为关键内容供应链用例编写了一组集成教程。 如果您使用多个解决方案，请了解集成它们的最佳方法！  查看 [内容供应链集成教程](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/solution-categories/content-supply-chain.html?lang=en).
 
 ## 推荐课程
+
 <div class="columns is-multiline">
   <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="[AEM Assets - Assets View] Bulk Import - Feature Video" tabIndex="0">
     <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
